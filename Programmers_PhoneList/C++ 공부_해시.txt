@@ -1,0 +1,16 @@
+C++ 공부
+
+A. 해쉬
+	* 프로그래머스 : 2레벨 전화번호 목록
+	1. unordered_map
+		- Key값으로 Value값 접근
+		- 선언
+			- unordered_map<Key, Value> name;
+		- Key 로 Value 삽입
+			- name[Key] = 삽입값;
+		- 접근
+			- if(name[Key])
+				- Key값이 없다면 기본값 0을 return
+				- 사실상 if(name[Key] != 0/*기본값*/) 과 동일
+	2. string변수명.substr(A, B);
+		- A ~ B 인덱스까지 string을 쪼갠다
